@@ -28,7 +28,7 @@ public class Main {
 
         System.out.println("result is " + result);
     }
-    public static int multi(int a, int b){
-        return a*b;
+    public static int multi(int number1, int number2){
+        return number1 * number2;
     }
 }
