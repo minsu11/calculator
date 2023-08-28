@@ -8,31 +8,31 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int a, b, c;
+        int number1, number2, result;
         char operator;
 
-        System.out.println("Please enter a Expression");
-        a = scan.nextInt();
-        b = scan.nextInt();
-        c = scan.nextInt();
+        System.out.println("Please enter a Expression : ");
+        number1 = scan.nextInt();
+        number2 = scan.nextInt();
+        result = scan.nextInt();
         operator = scan.next().charAt(0);
         switch (operator) {
             case '+':
-                c = add(a, b);
+                result = add(number1, number2);
                 break;
             case '-':
-                c = sub(a, b);
+                result = sub(number1, number2);
             case '*':
-                c = multi(a, b);
+                result = multi(number1, number2);
             case '/':
-                c = div(a, b);
+                result = div(number1, number2);
         }
 
-        System.out.println("result is " + c);
+        System.out.println("result is " + result);
     }
 
     // 빼기
-    public static int sub(int a, int b) {
-        return a - b;
+    public static int sub(int number1, int number2) {
+        return number1 - number2;
     }
 }
