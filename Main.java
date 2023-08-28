@@ -28,16 +28,4 @@ public class Main {
 
         System.out.println("result is " + c);
     }
-
-    private static int add(int a, int b) {
-        int result = 0;
-        result = a+b;
-        return result;
-    }
-
-    private static int sub(int a, int b) {
-        int result = 0;
-        result = a/b;
-        return result;
-    }
 }
