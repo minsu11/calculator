@@ -11,7 +11,7 @@ public class Main {
         int number1, number2, result;
         char operator;
 
-        System.out.println("Please enter a Expression: ");
+        System.out.println("Please enter a Expression : ");
         number1 = scan.nextInt(); number2 = scan.nextInt(); result = scan.nextInt();
         operator = scan.next().charAt(0);
         switch(operator){
