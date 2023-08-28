@@ -31,13 +31,15 @@ public class Main {
         System.out.println("result is " + result);
     }
 
+    private static int div(int number1, int number2) {
+        return number1/number2;
+    }
 
     private static int add(int number1, int number2) {
         return number1+number2;
     }
 
     
-}
 
     public static int multi(int number1, int number2){
         return number1 * number2;
