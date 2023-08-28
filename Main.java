@@ -5,23 +5,21 @@ import java.util.Scanner;
  */
 public class Main {
 
-
+    
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int a, b, c;
         char operator;
 
         System.out.println("Please enter a Expression");
-        a = scan.nextInt();
-        b = scan.nextInt();
-        c = scan.nextInt();
+        a = scan.nextInt(); b = scan.nextInt(); c = scan.nextInt();
         operator = scan.next().charAt(0);
-        switch (operator) {
+        switch(operator){
             case '+':
-                c = add(a, b);
+                c = add(a,b);
                 break;
             case '-':
-                c = sub(a, b);
+                c = sub(a,b);
             case '*':
                 c = multi(a, b);
             case '/':
@@ -29,9 +27,5 @@ public class Main {
         }
 
         System.out.println("result is " + c);
-    }
-
-    public static int sub(int a, int b) {
-        return a / b;
     }
 }
