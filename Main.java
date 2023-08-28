@@ -1,8 +1,9 @@
-import java.util.Scanner;
 
-/**
- * Main
- */
+import java.util.Scanner;
+/***************** 
+ * v1.0
+ * 2023-08-28
+***************/
 public class Main {
 
 
