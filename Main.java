@@ -31,7 +31,8 @@ public class Main {
         System.out.println("result is " + c);
     }
 
+    // 빼기
     public static int sub(int a, int b) {
-        return a / b;
+        return a - b;
     }
 }
